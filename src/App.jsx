@@ -1,7 +1,7 @@
-import { Suspense, useState } from "react"
+import { useState } from "react"
 import Navbar from "./components/Navbar/Navbar"
-import Products from "./components/Products/Products"
 import axios from "axios"
+import DigiTools from "./components/DigiTools/DigiTools"
 
 function App() {
 
@@ -21,9 +21,7 @@ function App() {
         </Navbar>
       </header>
       <main>
-        <Suspense fallback={<div className="flex justify-center items-center"><span className="loading loading-spinner loading-xl"></span></div>}>
-          <Products added={added} setAdded={setAdded} dataPromise={dataPromise}></Products>
-        </Suspense>
+        <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise}></DigiTools>
         
       </main>
     </>
