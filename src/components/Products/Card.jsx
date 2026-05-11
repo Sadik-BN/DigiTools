@@ -1,11 +1,14 @@
 import { Check } from "lucide-react";
 import { Bounce, toast } from "react-toastify";
 
-const Card = ({ product, added, setAdded }) => {
+const Card = ({ product, added, setAdded, total, setTotal }) => {
     const addCartHandler = (product) => {
         let newArray = [...added];
         newArray.push(product);
         setAdded(newArray);
+
+        setTotal(Number((total + product.price).toFixed(2)));
+
         toast.success('Item Added to Cart', {
             position: "top-right",
             autoClose: 3000,
@@ -17,6 +20,7 @@ const Card = ({ product, added, setAdded }) => {
             theme: "dark",
             transition: Bounce,
         });
+
     }
     const tagColors = {
         "popular": { bg: "#FEF3C7", text: "#B45309" },

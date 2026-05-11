@@ -18,24 +18,12 @@ const Navbar = ({added}) => {
                     <div className="flex gap-4 justify-center items-center">
 
                         {/* cart */}
-                        <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                                 <div className="indicator">
                                     <ShoppingCart></ShoppingCart>   
                                     <span className={`badge badge-sm indicator-item text-white bg-red-700 rounded-full ${added.length?"block":"hidden"}`}>{added.length}</span>
                                 </div>
                             </div>
-                            <div
-                                tabIndex={0}
-                                className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
-                                <div className="card-body">
-                                    <span className="text-lg font-bold">{added.length} Items</span>
-                                    <div className="card-actions">
-                                        <button className="btn btn-primary btn-block">View cart</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <p>Login</p>
 
