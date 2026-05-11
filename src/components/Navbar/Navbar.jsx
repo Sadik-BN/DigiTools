@@ -1,6 +1,6 @@
 import { ShoppingCart } from "lucide-react";
 
-const Navbar = () => {
+const Navbar = ({added}) => {
     return (
         <>
             <div className="navbar bg-base-100 shadow-sm">
@@ -22,15 +22,14 @@ const Navbar = () => {
                             <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                                 <div className="indicator">
                                     <ShoppingCart></ShoppingCart>   
-                                    <span className="badge badge-sm indicator-item text-white bg-red-700 rounded-full">8</span>
+                                    <span className={`badge badge-sm indicator-item text-white bg-red-700 rounded-full ${added.length?"block":"hidden"}`}>{added.length}</span>
                                 </div>
                             </div>
                             <div
                                 tabIndex={0}
                                 className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
                                 <div className="card-body">
-                                    <span className="text-lg font-bold">8 Items</span>
-                                    <span className="text-info">Subtotal: $999</span>
+                                    <span className="text-lg font-bold">{added.length} Items</span>
                                     <div className="card-actions">
                                         <button className="btn btn-primary btn-block">View cart</button>
                                     </div>
