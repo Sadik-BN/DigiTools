@@ -1,0 +1,138 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Resume Builder",
+    "description": "Craft ATS-friendly resumes with AI-powered suggestions and 100+ professional templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "AI content suggestions",
+      "Unlimited resumes"
+    ],
+    "icon": "/products/writing.png"
+  },
+  {
+    "id": "prod_002",
+    "name": "Cover Letter AI",
+    "description": "Generate personalized, job-specific cover letters in seconds using advanced AI.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI-generated cover letters",
+      "Job description matching",
+      "Tone customization",
+      "Export to PDF",
+      "Unlimited generations"
+    ],
+    "icon": "/products/operation.png"
+  },
+  {
+    "id": "prod_003",
+    "name": "Portfolio Pro",
+    "description": "Build a stunning developer or designer portfolio with drag-and-drop simplicity.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Custom domain support",
+      "20+ portfolio themes",
+      "Project showcase gallery",
+      "Contact form integration",
+      "Analytics dashboard"
+    ],
+    "icon": "/products/portfolio.png"
+  },
+  {
+    "id": "prod_004",
+    "name": "LinkedIn Optimizer",
+    "description": "Supercharge your LinkedIn profile with keyword optimization and headline generation.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Trending",
+    "tagType": "trending",
+    "features": [
+      "Profile score analyzer",
+      "Keyword gap detection",
+      "Headline & summary rewriter",
+      "Connection message templates",
+      "One-time payment, lifetime access"
+    ],
+    "icon": "/products/social-media.png"
+  },
+  {
+    "id": "prod_005",
+    "name": "Interview Prep Kit",
+    "description": "Ace your next interview with 500+ practice questions, mock sessions, and feedback.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ interview questions",
+      "AI mock interview sessions",
+      "Real-time feedback",
+      "Industry-specific question banks",
+      "STAR method answer guide"
+    ],
+    "icon": "/products/writing.png"
+  },
+  {
+    "id": "prod_006",
+    "name": "Job Tracker Pro",
+    "description": "Stay organized across all your job applications with a smart Kanban-style dashboard.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Kanban application board",
+      "Deadline & follow-up reminders",
+      "Notes & document attachments",
+      "Status pipeline tracking",
+      "Export to CSV"
+    ],
+    "icon": "/products/portfolio.png"
+  },
+  {
+    "id": "prod_007",
+    "name": "Skill Assessor",
+    "description": "Identify skill gaps and get a personalized learning roadmap for your dream career.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Best Value",
+    "tagType": "best-value",
+    "features": [
+      "Skill gap analysis",
+      "Personalized learning roadmap",
+      "40+ career tracks",
+      "Progress tracking",
+      "Certificate of completion"
+    ],
+    "icon": "/products/operation.png"
+  },
+  {
+    "id": "prod_008",
+    "name": "Career Coach AI",
+    "description": "Your always-on AI career coach for salary negotiation, career pivots, and growth strategy.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "Premium",
+    "tagType": "premium",
+    "features": [
+      "Unlimited AI coaching sessions",
+      "Salary negotiation scripts",
+      "Career pivot planner",
+      "Weekly growth check-ins",
+      "Priority email support"
+    ],
+    "icon": "/products/design-tool.png"
+  }
+]
