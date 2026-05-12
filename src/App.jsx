@@ -4,6 +4,7 @@ import axios from "axios"
 import DigiTools from "./components/DigiTools/DigiTools"
 import Stats from "./components/Stats/Stats"
 import Banner from "./components/Banner/Banner"
+import GetStarted from "./components/GetStarted/GetStarted"
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Banner></Banner>
         <Stats></Stats>
         <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise} total={total} setTotal={setTotal}></DigiTools>
+        <GetStarted></GetStarted>
 
       </main>
     </>

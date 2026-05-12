@@ -17,7 +17,7 @@ const Cart = ({ added, setAdded, tab, total, setTotal }) => {
             <h1 className="text-[24px] font-bold">Your Cart</h1>
             <div className="space-y-4">
                 {
-                    added.map(item => <CartCard key={item.id} item={item} added={added} setAdded={setAdded} setTotal={setTotal} total={total}></CartCard>)
+                    added.map((item,idx) => <CartCard key={idx} item={item} added={added} setAdded={setAdded} setTotal={setTotal} total={total}></CartCard>)
                 }
             </div>
             <div className="flex justify-between">
