@@ -11,7 +11,7 @@ const DigiTools = ({ dataPromise, added, setAdded, total, setTotal }) => {
         setTab(2);
     }
     return (
-        <div className="container mx-auto px-10">
+        <div className="container mx-auto px-10 mt-30">
 
             <div className="flex flex-col items-center justify-center space-y-4 mb-11">
                 <h1 className="text-[48px] font-extrabold text-center">Premium Digital Tools</h1>

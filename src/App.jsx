@@ -2,6 +2,7 @@ import { useState } from "react"
 import Navbar from "./components/Navbar/Navbar"
 import axios from "axios"
 import DigiTools from "./components/DigiTools/DigiTools"
+import Stats from "./components/Stats/Stats"
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         </Navbar>
       </header>
       <main>
+        <Stats></Stats>
         <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise} total={total} setTotal={setTotal}></DigiTools>
 
       </main>
