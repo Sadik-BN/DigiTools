@@ -6,6 +6,7 @@ import Stats from "./components/Stats/Stats"
 import Banner from "./components/Banner/Banner"
 import GetStarted from "./components/GetStarted/GetStarted"
 import Pricing from "./components/Pricing/Pricing"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -31,8 +32,10 @@ function App() {
         <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise} total={total} setTotal={setTotal}></DigiTools>
         <GetStarted></GetStarted>
         <Pricing></Pricing>
-
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   )
 }
