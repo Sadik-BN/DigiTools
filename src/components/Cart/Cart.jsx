@@ -24,6 +24,7 @@ const Cart = ({ added, setAdded, tab, total, setTotal }) => {
                 <p>Total:</p>
                 <h3 className="text-[24px] font-bold">${total}</h3>
             </div>
+            <button className="w-full btn text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl font-bold text-center py-3 px-4 flex-1">Proceed to Checkout</button>
         </div>
     );
 };
