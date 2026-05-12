@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar"
 import axios from "axios"
 import DigiTools from "./components/DigiTools/DigiTools"
 import Stats from "./components/Stats/Stats"
+import Banner from "./components/Banner/Banner"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         </Navbar>
       </header>
       <main>
+        <Banner></Banner>
         <Stats></Stats>
         <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise} total={total} setTotal={setTotal}></DigiTools>
 
