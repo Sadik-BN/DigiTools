@@ -5,6 +5,7 @@ import DigiTools from "./components/DigiTools/DigiTools"
 import Stats from "./components/Stats/Stats"
 import Banner from "./components/Banner/Banner"
 import GetStarted from "./components/GetStarted/GetStarted"
+import Pricing from "./components/Pricing/Pricing"
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Stats></Stats>
         <DigiTools added={added} setAdded={setAdded} dataPromise={dataPromise} total={total} setTotal={setTotal}></DigiTools>
         <GetStarted></GetStarted>
+        <Pricing></Pricing>
 
       </main>
     </>

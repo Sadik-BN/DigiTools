@@ -39,9 +39,9 @@ export default function GetStarted() {
                         <div className="bg-violet-100 rounded-full w-24 h-24 flex items-center justify-center mb-6">
                             <img src={pack} alt="" />
                         </div>
-                        <h3 className="text-[24px] font-bold mb-2">Create Account</h3>
+                        <h3 className="text-[24px] font-bold mb-2">Choose Products</h3>
                         <p className="text-gray-400 text-center">
-                            Sign up for free in seconds. No credit card required to get started.
+                            Browse our catalog and select the tools <br /> that fit your needs.
                         </p>
                     </div>
 
@@ -53,9 +53,9 @@ export default function GetStarted() {
                         <div className="bg-violet-100 rounded-full w-24 h-24 flex items-center justify-center mb-6">
                             <img src={rocket} alt="" />
                         </div>
-                        <h3 className="text-[24px] font-bold mb-2">Create Account</h3>
+                        <h3 className="text-[24px] font-bold mb-2">Start Creating</h3>
                         <p className="text-gray-400 text-center">
-                            Sign up for free in seconds. No credit card required to get started.
+                            Download and start using your premium<br />tools immediately.
                         </p>
                     </div>
 
