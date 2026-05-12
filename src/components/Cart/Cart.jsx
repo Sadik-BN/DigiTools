@@ -1,6 +1,22 @@
+import { Bounce, toast } from "react-toastify";
 import CartCard from "./CartCard";
 
 const Cart = ({ added, setAdded, tab, total, setTotal }) => {
+    const checkOutHandler = () => {
+        setAdded([]);
+        setTotal(0);
+        toast.success('Thanks For Shopping', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            transition: Bounce,
+        });
+    }
     if (added.length === 0) {
 
         return (
@@ -17,14 +33,14 @@ const Cart = ({ added, setAdded, tab, total, setTotal }) => {
             <h1 className="text-[24px] font-bold">Your Cart</h1>
             <div className="space-y-4">
                 {
-                    added.map((item,idx) => <CartCard key={idx} item={item} added={added} setAdded={setAdded} setTotal={setTotal} total={total}></CartCard>)
+                    added.map((item, idx) => <CartCard key={idx} item={item} added={added} setAdded={setAdded} setTotal={setTotal} total={total}></CartCard>)
                 }
             </div>
             <div className="flex justify-between">
                 <p>Total:</p>
                 <h3 className="text-[24px] font-bold">${total}</h3>
             </div>
-            <button className="w-full btn text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl font-bold text-center py-3 px-4 flex-1">Proceed to Checkout</button>
+            <button onClick={checkOutHandler} className="w-full btn text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-3xl font-bold text-center py-3 px-4 flex-1">Proceed to Checkout</button>
         </div>
     );
 };
